@@ -1,0 +1,18 @@
+======================================================================
+DATA CLEANING REPORT
+======================================================================
+Original Shape : (3100, 15)
+Exact Duplicate Rows Removed : 92
+Leading/Trailing Spaces Removed
+Gender Standardized
+Product Categories Standardized
+Churn Status Standardized
+PurchaseDate Converted To Datetime
+Age Missing Filled : 99 (Median = 43.0)
+Location Missing Filled : 463 (Mode = Hyderabad)
+CustomerRating Missing Filled : 505 (Median = 3.0)
+TotalAmount Missing Filled : 50 (Business Formula)
+Final Duplicate Rows Removed : 2
+
+Remaining Missing Values : 0
+Final Shape : (3006, 15)

@@ -1,0 +1,52 @@
+============================================================
+DATA VALIDATION REPORT
+============================================================
+
+Shape : (3100, 15)
+
+Exact Duplicate Rows : 92
+
+Duplicate Transaction IDs : 100
+
+Gender
+------
+F
+Female
+M
+Male
+
+Location
+--------
+Bangalore
+Delhi
+Hyderabad
+Mumbai
+Pune
+
+ProductCategory
+---------------
+Beauty
+Elec
+Electronics
+Fashion
+Home
+
+PaymentMethod
+-------------
+COD
+Credit Card
+UPI
+Wallet
+
+ChurnStatus
+-----------
+No
+Yes
+yes
+
+Missing Values
+------------------------------
+Age : 99
+Location : 475
+CustomerRating : 527
+TotalAmount : 50

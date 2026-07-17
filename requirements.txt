@@ -1,0 +1,12 @@
+streamlit
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+plotly
+requests
+python-multipart
+openpyxl

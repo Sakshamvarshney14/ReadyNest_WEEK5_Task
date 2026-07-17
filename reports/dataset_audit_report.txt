@@ -1,0 +1,55 @@
+DATASET AUDIT REPORT
+============================================================
+
+Shape : (3100, 15)
+Rows : 3100
+Columns : 15
+
+Data Types
+TransactionID          str
+CustomerID             str
+PurchaseDate           str
+Age                float64
+Gender                 str
+Location               str
+ProductCategory        str
+Quantity             int64
+UnitPrice          float64
+PaymentMethod          str
+DiscountPercent      int64
+ShippingCost       float64
+CustomerRating     float64
+ChurnStatus            str
+TotalAmount        float64
+dtype: object
+
+Missing Values
+         Column  Missing Values  Percentage
+  TransactionID               0        0.00
+     CustomerID               0        0.00
+   PurchaseDate               0        0.00
+            Age              99        3.19
+         Gender               0        0.00
+       Location             475       15.32
+ProductCategory               0        0.00
+       Quantity               0        0.00
+      UnitPrice               0        0.00
+  PaymentMethod               0        0.00
+DiscountPercent               0        0.00
+   ShippingCost               0        0.00
+ CustomerRating             527       17.00
+    ChurnStatus               0        0.00
+    TotalAmount              50        1.61
+
+Duplicate Rows : 92
+
+Numerical Summary
+               Age     Quantity    UnitPrice  DiscountPercent  ShippingCost  CustomerRating   TotalAmount
+count  3001.000000  3100.000000  3100.000000      3100.000000   3100.000000     2573.000000   3050.000000
+mean     43.430523     4.944516  2571.686032         9.070968    112.729735        3.013603  11508.040580
+std      14.932936     2.592370  1398.736976         7.392870     52.154131        1.414011   9251.993985
+min      18.000000     1.000000   101.240000         0.000000     20.010000        1.000000    185.272000
+25%      31.000000     3.000000  1370.660000         5.000000     68.682500        2.000000   3918.392875
+50%      43.000000     5.000000  2615.700000        10.000000    114.150000        3.000000   8934.337000
+75%      56.000000     7.000000  3779.167500        20.000000    157.712500        4.000000  16569.833125
+max      69.000000     9.000000  4999.630000        20.000000    199.980000        5.000000  44852.350000

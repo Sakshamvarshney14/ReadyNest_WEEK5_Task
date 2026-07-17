@@ -1,0 +1,26 @@
+======================================================================
+FEATURE ENGINEERING REPORT
+======================================================================
+Initial Shape : (3006, 15)
+Created PurchaseYear
+Created PurchaseMonth
+Created MonthName
+Created PurchaseDay
+Created WeekOfMonth
+Created DayOfWeek
+Created WeekendPurchase
+Created AgeGroup
+Created SpendingCategory
+Created DiscountCategory
+Created RatingCategory
+Created RevenuePerItem
+Created NetProductValue
+Created AverageSellingPrice
+Created ShippingPercentage
+Created ShippingCategory
+Created HighValueCustomer
+Created CustomerSegment
+Created OrderValueCategory
+
+Final Shape : (3006, 34)
+Total Features Added : 19

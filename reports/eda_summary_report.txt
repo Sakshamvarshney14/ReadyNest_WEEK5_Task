@@ -1,0 +1,84 @@
+======================================================================
+EXPLORATORY DATA ANALYSIS REPORT
+======================================================================
+
+DATASET OVERVIEW
+Rows : 3008
+Columns : 34
+
+Missing Values : 0
+Duplicate Rows : 2
+
+NUMERICAL FEATURES
+Age
+Quantity
+UnitPrice
+DiscountPercent
+ShippingCost
+CustomerRating
+TotalAmount
+PurchaseYear
+PurchaseMonth
+PurchaseDay
+RevenuePerItem
+NetProductValue
+AverageSellingPrice
+ShippingPercentage
+
+CATEGORICAL FEATURES
+TransactionID
+CustomerID
+PurchaseDate
+Gender
+Location
+ProductCategory
+PaymentMethod
+ChurnStatus
+MonthName
+WeekOfMonth
+DayOfWeek
+WeekendPurchase
+AgeGroup
+SpendingCategory
+DiscountCategory
+RatingCategory
+ShippingCategory
+HighValueCustomer
+CustomerSegment
+OrderValueCategory
+
+TOP LOCATIONS
+Hyderabad : 1017
+Bangalore : 506
+Pune : 503
+Delhi : 500
+Mumbai : 482
+
+PRODUCT CATEGORIES
+Electronics : 1188
+Fashion : 638
+Beauty : 633
+Home : 549
+
+PAYMENT METHODS
+UPI : 787
+COD : 759
+Wallet : 738
+Credit Card : 724
+
+CUSTOMER SEGMENTS
+Regular : 2256
+At Risk : 407
+Loyal : 205
+Premium : 140
+
+CHURN STATUS
+Yes : 2017
+No : 991
+
+BUSINESS METRICS
+Total Revenue : 34722231.58
+Average Order Value : 11543.3
+Highest Order : 44852.35
+Average Rating : 3.02
+Average Discount : 9.05

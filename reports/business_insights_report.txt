@@ -1,0 +1,69 @@
+======================================================================
+BUSINESS INSIGHTS REPORT
+======================================================================
+Total Revenue : 34701212.30
+Total Orders : 3006
+Average Order Value : 11543.98
+
+Top Revenue Product Category
+ProductCategory
+Electronics    1.360602e+07
+Fashion        7.566566e+06
+Beauty         7.233300e+06
+Name: TotalAmount, dtype: float64
+
+Top Revenue Locations
+Location
+Hyderabad    1.210670e+07
+Bangalore    5.848834e+06
+Delhi        5.766551e+06
+Name: TotalAmount, dtype: float64
+
+Revenue By Payment Method
+PaymentMethod
+UPI            9.061543e+06
+COD            8.956276e+06
+Wallet         8.398603e+06
+Credit Card    8.284790e+06
+Name: TotalAmount, dtype: float64
+
+Customer Churn Rate (%)
+ChurnStatus
+Yes    67.07
+No     32.93
+Name: proportion, dtype: float64
+
+High Value Customers
+HighValueCustomer
+No     2254
+Yes     752
+Name: count, dtype: int64
+
+Customer Segments
+CustomerSegment
+Regular    2254
+At Risk     407
+Loyal       205
+Premium     140
+Name: count, dtype: int64
+
+Weekend vs Weekday Revenue
+WeekendPurchase
+No     2.539496e+07
+Yes    9.306251e+06
+Name: TotalAmount, dtype: float64
+
+Average Revenue by Rating
+RatingCategory
+Average    11590.17
+High       11640.17
+Low        11397.08
+Name: TotalAmount, dtype: float64
+
+Average Revenue by Discount
+DiscountCategory
+High Discount       9758.43
+Low Discount       12240.40
+Medium Discount    11285.41
+No Discount        13098.65
+Name: TotalAmount, dtype: float64
