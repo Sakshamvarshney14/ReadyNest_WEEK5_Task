@@ -6,7 +6,7 @@ import streamlit as st
 # API CONFIG
 # ==========================================================
 
-BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = "https://readynest-week5-task.onrender.com"
 
 # ==========================================================
 # SAFE API REQUEST
